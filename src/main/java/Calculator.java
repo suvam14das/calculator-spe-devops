@@ -24,24 +24,24 @@ public class Calculator {
                 case 1:
                     System.out.println("Enter Number");
                     n1 = s.nextDouble();
-                    System.out.println("Result for square root is : " + squareroot(n1));
+                    System.out.println("[SQUARE ROOT] Result : " + squareroot(n1));
                     break;
                 case 2:
                     System.out.println("Enter Number");
                     n1 = s.nextDouble();
-                    System.out.println("Result for factorial is : " + factorial(n1));
+                    System.out.println("[FACTORIAL] Result : " + factorial(n1));
                     break;
                 case 3:
                     System.out.println("Enter Number");
                     n1 = s.nextDouble();
-                    System.out.println("Result for natural log is : " + naturallog(n1));
+                    System.out.println("[NATURAL LOGARITHM] Result : " + naturallog(n1));
                     break;
                 case 4:
                     System.out.println("Enter First Number");
                     n1 = s.nextDouble();
                     System.out.println("Enter Second Number");
                     n2 = s.nextDouble();
-                    System.out.println("Result for power is : " + power(n1, n2));
+                    System.out.println("[POWER] Result : " + power(n1, n2));
                     break;
                 default:
                     System.out.println("Invalid input");
