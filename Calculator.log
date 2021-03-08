@@ -1,39 +1,28 @@
-07/Mar/2021:17:52:17 613 [Calculator.java] INFO  Calculator - Calculating natural log for 10.0
-07/Mar/2021:17:52:17 616 [Calculator.java] INFO  Calculator - Result of natural log is 2.302585092994046
-07/Mar/2021:17:52:17 617 [Calculator.java] INFO  Calculator - Calculating natural log for 0.0
-07/Mar/2021:17:52:17 618 [Calculator.java] ERROR Calculator - Invalid number for natural logarithm calculation
-07/Mar/2021:17:52:17 618 [Calculator.java] INFO  Calculator - Result of natural log is NaN
-07/Mar/2021:17:52:17 619 [Calculator.java] INFO  Calculator - Calculating square root for -36.0
-07/Mar/2021:17:52:17 620 [Calculator.java] ERROR Calculator - Invalid number for square root calculation
-07/Mar/2021:17:52:17 620 [Calculator.java] INFO  Calculator - Result of square root is NaN
-07/Mar/2021:17:52:17 620 [Calculator.java] INFO  Calculator - Calculating square root for 36.0
-07/Mar/2021:17:52:17 621 [Calculator.java] INFO  Calculator - Result of square root is 6.0
-07/Mar/2021:17:52:17 622 [Calculator.java] INFO  Calculator - Calculating factorial for -10.0
-07/Mar/2021:17:52:17 622 [Calculator.java] ERROR Calculator - Invalid number for factorial calculation
-07/Mar/2021:17:52:17 623 [Calculator.java] INFO  Calculator - Result of factorial is NaN
-07/Mar/2021:17:52:17 623 [Calculator.java] INFO  Calculator - Calculating factorial for 10.0
-07/Mar/2021:17:52:17 624 [Calculator.java] INFO  Calculator - Result of factorial is 3628800.0
-07/Mar/2021:17:52:17 625 [Calculator.java] INFO  Calculator - Calculating square root for 2.0
-07/Mar/2021:17:52:17 626 [Calculator.java] INFO  Calculator - Result of square root is 1.4142135623730951
-07/Mar/2021:17:52:17 627 [Calculator.java] INFO  Calculator - Calculating square root for -2.0
-07/Mar/2021:17:52:17 627 [Calculator.java] ERROR Calculator - Invalid number for square root calculation
-07/Mar/2021:17:52:17 628 [Calculator.java] INFO  Calculator - Result of square root is NaN
-07/Mar/2021:17:52:17 629 [Calculator.java] INFO  Calculator - Calculating factorial for 5.0
-07/Mar/2021:17:52:17 630 [Calculator.java] INFO  Calculator - Result of factorial is 120.0
-07/Mar/2021:17:52:17 630 [Calculator.java] INFO  Calculator - Calculating factorial for -5.0
-07/Mar/2021:17:52:17 630 [Calculator.java] ERROR Calculator - Invalid number for factorial calculation
-07/Mar/2021:17:52:17 631 [Calculator.java] INFO  Calculator - Result of factorial is NaN
-07/Mar/2021:17:52:17 631 [Calculator.java] INFO  Calculator - Calculating natural log for 45.0
-07/Mar/2021:17:52:17 631 [Calculator.java] INFO  Calculator - Result of natural log is 3.8066624897703196
-07/Mar/2021:17:52:17 631 [Calculator.java] INFO  Calculator - Calculating natural log for -5.0
-07/Mar/2021:17:52:17 632 [Calculator.java] ERROR Calculator - Invalid number for natural logarithm calculation
-07/Mar/2021:17:52:17 632 [Calculator.java] INFO  Calculator - Result of natural log is NaN
-07/Mar/2021:17:56:43 635 [Calculator.java] INFO  Calculator - Calculating factorial for 5.0
-07/Mar/2021:17:56:43 641 [Calculator.java] INFO  Calculator - Result of factorial is 120.0
-07/Mar/2021:17:57:02 739 [Calculator.java] INFO  Calculator - Calculating factorial for -9.0
-07/Mar/2021:17:57:02 740 [Calculator.java] ERROR Calculator - Invalid number for factorial calculation
-07/Mar/2021:17:57:02 741 [Calculator.java] INFO  Calculator - Result of factorial is NaN
-07/Mar/2021:21:31:11 976 [Calculator.java] INFO  Calculator - Calculating power of 5.0 raised to 0.0
-07/Mar/2021:21:31:11 990 [Calculator.java] INFO  Calculator - Result of power is 1.0
-07/Mar/2021:22:14:02 485 [Calculator.java] INFO  Calculator - Calculating power of 20.0 raised to -2.0
-07/Mar/2021:22:14:02 500 [Calculator.java] INFO  Calculator - Result of power is 0.0025
+08/Mar/2021:11:29:21 688 [Calculator.java] INFO  Calculator - [NATURAL LOG] Calculating natural log for 10.0
+08/Mar/2021:11:29:21 758 [Calculator.java] INFO  Calculator - [NATURAL LOG - RESULT] Result of natural log is 2.302585092994046
+08/Mar/2021:11:29:21 760 [Calculator.java] INFO  Calculator - [NATURAL LOG] Calculating natural log for 0.0
+08/Mar/2021:11:29:21 761 [Calculator.java] ERROR Calculator - [NATURAL LOG - EXCEPTION] Invalid number for natural logarithm calculation
+08/Mar/2021:11:29:21 763 [Calculator.java] INFO  Calculator - [SQUARE ROOT] Calculating square root for -36.0
+08/Mar/2021:11:29:21 764 [Calculator.java] ERROR Calculator - [SQUARE ROOT - EXCEPTION] Invalid number for square root calculation
+08/Mar/2021:11:29:21 765 [Calculator.java] INFO  Calculator - [SQUARE ROOT] Calculating square root for 36.0
+08/Mar/2021:11:29:21 766 [Calculator.java] INFO  Calculator - [SQUARE ROOT - RESULT] Result of square root is 6.0
+08/Mar/2021:11:29:21 768 [Calculator.java] INFO  Calculator - [FACTORIAL] Calculating factorial for -10.0
+08/Mar/2021:11:29:21 769 [Calculator.java] ERROR Calculator - [FACTORIAL - EXCEPTION] Invalid number for factorial calculation
+08/Mar/2021:11:29:21 770 [Calculator.java] INFO  Calculator - [FACTORIAL] Calculating factorial for 10.0
+08/Mar/2021:11:29:21 871 [Calculator.java] INFO  Calculator - [FACTORIAL - RESULT] Result of factorial is 3628800.0
+08/Mar/2021:11:29:21 873 [Calculator.java] INFO  Calculator - [SQUARE ROOT] Calculating square root for 2.0
+08/Mar/2021:11:29:21 874 [Calculator.java] INFO  Calculator - [SQUARE ROOT - RESULT] Result of square root is 1.4142135623730951
+08/Mar/2021:11:29:21 875 [Calculator.java] INFO  Calculator - [SQUARE ROOT] Calculating square root for -2.0
+08/Mar/2021:11:29:21 876 [Calculator.java] ERROR Calculator - [SQUARE ROOT - EXCEPTION] Invalid number for square root calculation
+08/Mar/2021:11:29:21 877 [Calculator.java] INFO  Calculator - [FACTORIAL] Calculating factorial for 5.0
+08/Mar/2021:11:29:21 878 [Calculator.java] INFO  Calculator - [FACTORIAL - RESULT] Result of factorial is 120.0
+08/Mar/2021:11:29:21 879 [Calculator.java] INFO  Calculator - [FACTORIAL] Calculating factorial for -5.0
+08/Mar/2021:11:29:21 879 [Calculator.java] ERROR Calculator - [FACTORIAL - EXCEPTION] Invalid number for factorial calculation
+08/Mar/2021:11:29:21 880 [Calculator.java] INFO  Calculator - [NATURAL LOG] Calculating natural log for 45.0
+08/Mar/2021:11:29:21 881 [Calculator.java] INFO  Calculator - [NATURAL LOG - RESULT] Result of natural log is 3.8066624897703196
+08/Mar/2021:11:29:21 881 [Calculator.java] INFO  Calculator - [NATURAL LOG] Calculating natural log for -5.0
+08/Mar/2021:11:29:21 881 [Calculator.java] ERROR Calculator - [NATURAL LOG - EXCEPTION] Invalid number for natural logarithm calculation
+08/Mar/2021:11:54:39 784 [Calculator.java] INFO  Calculator - [POWER] Calculating power of 4.0 raised to 5.0
+08/Mar/2021:11:54:40 497 [Calculator.java] INFO  Calculator - [POWER - RESULT] Result of power is 1024.0
+08/Mar/2021:11:54:51 905 [Calculator.java] INFO  Calculator - [POWER] Calculating power of 0.0 raised to 0.0
+08/Mar/2021:11:54:51 907 [Calculator.java] ERROR Calculator - [POWER EXCEPTION] Invalid set of numbers for power calculation
