@@ -43,4 +43,16 @@ public class CalculatorTest {
         assertNotEquals("Natural log for False Positive", 0, Calculator.naturallog(-5), DELTA);
     }
 
+    @Test
+    public void powerEquals() {
+        assertEquals("Power for True Positive", 1000, Calculator.power(10, 3), DELTA);
+        assertEquals("Power for True Positive", Double.NaN, Calculator.power(0, 0), DELTA);
+    }
+
+    @Test
+    public void powerNotEquals() {
+        assertNotEquals("Power for False Positive", 512, Calculator.power(2, 10), DELTA);
+        assertNotEquals("Power for False Positive", 1, Calculator.power(0, 10), DELTA);
+    }
+
 }
